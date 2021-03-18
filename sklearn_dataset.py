@@ -15,3 +15,8 @@ from sklearn.preprocessing import LabelEncoder
 le = LabelEncoder()
 yt = le.fit_transform(Y)
 print(yt)
+
+from sklearn.preprocessing import LabelBinarizer
+lb = LabelBinarizer()
+Yb = lb.fit_transform(Y)
+print(lb.inverse_transfrom(Yb))
