@@ -20,3 +20,15 @@ from sklearn.preprocessing import LabelBinarizer
 lb = LabelBinarizer()
 Yb = lb.fit_transform(Y)
 print(lb.inverse_transfrom(Yb))
+
+from sklearn.preprocessing import OneHotEncoder
+data = [
+    [0, 10],
+    [1, 11],
+    [1, 8],
+    [0, 12],
+    [0, 15]
+]
+oh = OneHotEncoder(categorical_features=[0])
+Y_oh = oh.fit_transform(data)
+print(Y_oh.todense())
