@@ -185,13 +185,22 @@ matplotlib.get_cachedir()
 
 https://jinyes-tistory.tistory.com/70
 
-
+https://m.blog.naver.com/PostView.nhn?blogId=zeta0807&logNo=221513189108&proxyReferer=https:%2F%2Fwww.google.com%2F
 
 https://subinium.github.io/MLwithPython-2-3-1/
 
 https://blog.naver.com/bo53621mi/222213928626
 
-
+https://datascienceschool.net/03%20machine%20learning/09.02%20%EB%B6%84%EB%A5%98%EC%9A%A9%20%EA%B0%80%EC%83%81%20%EB%8D%B0%EC%9D%B4%ED%84%B0%20%EC%83%9D%EC%84%B1.html
 
 https://itchipmunk.tistory.com/148?category=646518
 
+
+
+#### n_neighbors값이 각기 다른 최근접 이웃 모델이 만든 결정 경계
+
+(Decision boundaries created by recent neighbor models with different n_neighbors values)
+
+
+
+n_neighbors 변화에 따른 훈련 정확도와 테스트 정확도 
