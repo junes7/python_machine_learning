@@ -234,3 +234,32 @@ https://blog.naver.com/hiuejiwon/222279971316
 n_neighbors 변화에 따른 훈련 정확도와 테스트 정확도 
 
 (Training accuracy and test accuracy with n_neighbors change)
+
+
+
+### 선형 모델(Linear Model)
+
+* 선형 모델은 100여년 전에 개발되었고, 지난 몇 십년 동안 폭넓게 연구되고 현재도 널리 쓰입니다. 곧 보겠지만 선형 모델은 입력 특성에 대한 선형 함수를 만들어 예측을 수행합니다.
+
+https://datastory1.blogspot.com/2017/11/r-markdown_2.html
+
+https://shjchad78.tistory.com/18
+
+https://ko.wikipedia.org/wiki/%EC%9C%84%ED%82%A4%EB%B0%B1%EA%B3%BC:TeX_%EB%AC%B8%EB%B2%95
+
+### 회귀의 선형 모델
+
+* 회귀의 경우 선형 모델을 위한 일반화된 예측 함수는 다음과 같습니다.
+
+$$
+\hat{y} = w[0] \times x[0] + w[1] \times x[1] + ... + w[p] \times x[p] + b
+$$
+
+* 이 식에서 *x*[0] 에서부터 *x*[*p*]까지는 하나의 데이터 포인트에 대한 특성을 나타내며 (특성의 개수는 *p* + 1), w와 b는 모델이 학습할 파라미터입니다. 그리고 y은 모델이 만들어낸 예측값입니다. 특성이 하나인 데이터셋이라면 이 식은 다음과 같습니다.
+
+$$
+\hat{y} = w[0] \times x[0] + b
+$$
+
+
+
