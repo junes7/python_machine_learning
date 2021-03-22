@@ -92,4 +92,106 @@ https://rfriend.tistory.com/416
 
 
 
+
+
+##### 분류용 가상 데이터 생성
+
+* Scikit-Learn 패키지는 분류(classification) 모형의 테스트를 위해 여러가지 가상 데이터를 생성하는 함수를 제공한다.
+
+* make_classification 함수는 설정에 따른 분류용 가상 데이터를 생성하는 명령이다. 이 함수의 인수와 반환값은 다음과 같다.
+* 인수:
+
+* n_samples: 표본 데이터의 수, 디폴트 100
+* n_features: 독립 변수의 수, 디폴트 20
+* n_informative: 독립 변수 중 종속 변수와 상관 관계가 있는 성분의 수, 디폴트 2
+* n_redundant: 독립 변수 중 다른 독립 변수의 선형 조합으로 나타나는 성분의 수, 디폴트2
+* n_repeated:  독립 변수 중 단순 중복된 성분의 수, 디폴트0
+* n_classes: 종속 변수의 클래스 수, 디폴트2
+* n_clusters_per_class: 클래스 당 클러스터의 수, 디폴트2
+* weights: 각 클래스에 할당된 표본 수
+* random_state: 난수 발생 시드
+* 반환값:
+* x: [n_samples, n_features] 크기의 배열 o 독립 변수
+* y: [n_samples] 크기의 배열 o 종속 변수
+
+다음 코드는 1개의 독립변수를 가지고 2개의 클래스를 가지는 데이터를 생성한 예이다.
+
+```python
+from sklearn.datasets import make_classification
+plt.title("1개의 독립변수를 가진 가상 데이터")
+X, y = make_classification(n_features=1, n_informative)
+
+
+```
+
+
+
+
+
+
+
+### make_blobs
+
+* `make_blobs함수는` 등방성 가우시안 정규분포를 이용해 가상 데이터를 생성한다. 이 때 등방성이라는 말은 모든 방향으로 같은 성질을 가진다는 뜻이다. 다음 데이터 생성 코드의 결과를 보면 `make_classification` 함수로 만든 가상데이터와 모양이 다른 것을 확인할 수 있다. `make_blobs`는 보통 클러스링 용 가상데이터를 생성하는데 사용한다. `make_blobs`함수의 인수와 반환값은 다음과 같다.
+* 인수:
+* n_samples: 표본 데이터의 수, 디폴트 100
+* n_features: 독립 변수의 수, 디폴트 20
+* centers: 생성할 클러스터의 수 혹은 중심, [n_centers, n_features] 크기의 배열, 디폴트3
+* cluster_std: 클러스터의 표준 편차, 디폴트 1.0
+* center_box: 생성할 클러스터의 바운딩 박스(bounding box), 디폴트(-10.0, 10.0)
+* 반환값:
+* x: [n_samples, n_features] 크기의 배열 
+  * 독립 변수
+* y: [n_samples] 크기의 배열
+  * 종속 변수
+
+```python
+from sklearn.datasets import make_blobs
+plt.title("세개의 클러스터를 가진 가상 데이터")
+X, y = make_blobs(n_samples=300, n_features=2, centers=3, random_state=1)
+plt.scatter(X[:, 0], X[:, 1], marker='o', c=y, s=100, edgecolor="k", linewidth=2)
+plt.xlabel("$X_1$")
+plt.ylabel("$X_2$")
+plt.show()
+```
+
+
+
+
+
+```python
+# 라이브러리 임포트
+from IPython.display import display
+from sklearn.datasets import make_blobs
+import numpy as np
+# import matplotlib.pyplot as plt
+import pandas as pd
+import mglearn
+
+import matplotlib as mpl
+import matplotlib.pylab as plt
+# 한글깨짐 해결
+plt.rcParams["font.family"] = "NanumBarunGothic"
+plt.rcParams["font.size"] = 12
+plt.rcParams["figure.figsize"] = (14,4)
+
+# 마이너스 깨짐 해결
+mpl.rcParams['axes.unicode_minus'] = False
+# 캐쉬 경로 검색
+matplotlib.get_cachedir()
+```
+
+
+
+https://jinyes-tistory.tistory.com/70
+
+
+
+https://subinium.github.io/MLwithPython-2-3-1/
+
+https://blog.naver.com/bo53621mi/222213928626
+
+
+
 https://itchipmunk.tistory.com/148?category=646518
+
