@@ -197,6 +197,34 @@ https://itchipmunk.tistory.com/148?category=646518
 
 
 
+
+
+https://tensorflow.blog/%ED%8C%8C%EC%9D%B4%EC%8D%AC-%EB%9D%BC%EC%9D%B4%EB%B8%8C%EB%9F%AC%EB%A6%AC%EB%A5%BC-%ED%99%9C%EC%9A%A9%ED%95%9C-%EB%A8%B8%EC%8B%A0%EB%9F%AC%EB%8B%9D/
+
+https://woolulu.tistory.com/category/python%20%EB%A8%B8%EC%8B%A0%EB%9F%AC%EB%8B%9D%20--%20%EC%A7%80%EB%8F%84%ED%95%99%EC%8A%B5?page=0
+
+https://halsu-itda.tistory.com/3
+
+
+
+### jupyter notebook 단축키
+
+https://technical-support.tistory.com/58
+
+https://iludaslab.tistory.com/43
+
+### 네이버 블로그
+
+https://blog.naver.com/prkim99/222102299395
+
+https://blog.naver.com/slykid/221850725829
+
+https://blog.naver.com/spacedau/222277907320
+
+https://m.blog.naver.com/ssdyka/221228868101
+
+https://blog.naver.com/hiuejiwon/222279971316
+
 #### n_neighbors값이 각기 다른 최근접 이웃 모델이 만든 결정 경계
 
 (Decision boundaries created by recent neighbor models with different n_neighbors values)
@@ -204,3 +232,5 @@ https://itchipmunk.tistory.com/148?category=646518
 
 
 n_neighbors 변화에 따른 훈련 정확도와 테스트 정확도 
+
+(Training accuracy and test accuracy with n_neighbors change)
