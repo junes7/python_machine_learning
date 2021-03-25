@@ -263,3 +263,5 @@ $$
 
 
 
+### 분류용 선형 모델(Linear Model for classification)
+
