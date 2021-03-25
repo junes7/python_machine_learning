@@ -267,6 +267,11 @@ $$
 
 
 
+* forge 데이터셋에 기본 매개변수를 사용해 만든 선형 SVM과 로지스틱 회귀 모델의 결정 경계(Decision boundaries between linear svm and logistic regression models which created with default parameters in the forge dataset)
+
+* forge 데이터셋에 각기 다른 C 값으로 만든 선형 SVM 모델의 결정 경계(Decision boundaries for linear svm models which created with different c values in the forge dataset)
+* mglearn.plots.plot_linear_svc_regularization()
+
 
 
 * 세 개의 일대다 분류기가 만든 결정 경계(Decision boundaries which created by three one-to-many classifiers) 
