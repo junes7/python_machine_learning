@@ -265,3 +265,14 @@ $$
 
 ### 분류용 선형 모델(Linear Model for classification)
 
+
+
+
+
+* 세 개의 일대다 분류기가 만든 결정 경계(Decision boundaries which created by three one-to-many classifiers) 
+
+
+
+
+
+* 세 개의 일대다 분류기가 만든 다중 클래스 결정 경계(Multiple-class decision boundaries which created by three one-to-many classifiers )
