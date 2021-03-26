@@ -274,6 +274,13 @@ $$
 
 
 
+* 유방암 데이터셋에 각기 다른 C값을 사용하여 만든 로지스틱 회귀의 계수(Coefficients of logistic regression which created using different C values for breast cancer datasets)
+* 유방암 데이터와 L1 규제를 사용하여 각기 다른 C값을 적용한 로지스틱 회귀 모델의 계수(Coefficient for logistic regression models with different C values by using breast cancer data and L1 regulation)
+
+
+
+
+
 * 세 개의 일대다 분류기가 만든 결정 경계(Decision boundaries which created by three one-to-many classifiers) 
 
 
