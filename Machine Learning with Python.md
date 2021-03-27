@@ -288,3 +288,12 @@ $$
 
 
 * 세 개의 일대다 분류기가 만든 다중 클래스 결정 경계(Multiple-class decision boundaries which created by three one-to-many classifiers )
+
+
+
+### 나이브 베이즈 분류기(Naive Bayes Classifier)
+
+
+
+* 결정 트리의 복잡도 제어하기 (To control the complexity of the decision tree)
+* 
