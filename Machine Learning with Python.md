@@ -296,4 +296,5 @@ $$
 
 
 * 결정 트리의 복잡도 제어하기 (To control the complexity of the decision tree)
-* 
+* 램 가격 데이터를 사용해 만든 선형 모델과 회귀 트리의 예측값 비교(Comparison of linear models and regression tree forecasts created using ram price data)
+*  
