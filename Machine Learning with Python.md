@@ -306,3 +306,9 @@ https://github.com/rickiepark/introduction_to_ml_with_python
 ### 배깅(Bagging)
 
 * 배깅은 Bootstrap aggregating의 줄임말입니다. 배깅은 중복을 허용한 랜덤 샘플링으로 만든 호눌련 세트를사용하여 분류기를 각기 다르게 학습시킵니다.
+
+
+
+### 에이다부스트(AdaBoost)
+
+* 에이다부스트는 Adaptive Boosting의 줄임말입니다. 에이다부스트는 그레이디언트 부스팅처럼 약한 학습기를 사용합니다. 그레이디언트 부스팅과는 달리 이전의 모델이 잘못 분류한 샘플에 가중치를 높여서 다음 모델을 훈련시킵니다.
