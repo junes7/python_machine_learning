@@ -312,3 +312,22 @@ https://github.com/rickiepark/introduction_to_ml_with_python
 ### 에이다부스트(AdaBoost)
 
 * 에이다부스트는 Adaptive Boosting의 줄임말입니다. 에이다부스트는 그레이디언트 부스팅처럼 약한 학습기를 사용합니다. 그레이디언트 부스팅과는 달리 이전의 모델이 잘못 분류한 샘플에 가중치를 높여서 다음 모델을 훈련시킵니다.
+
+
+
+### 커널 서포트 벡터 머신(Kernelized Support Vector Machines)
+
+* "분류용 선형 모델"에서 선형 서포트 벡터 머신을 사용해 분류 문제를 풀어보았습니다. 커널 서포트 벡터 머신(보통 그냥 SVM으로 부릅니다)은 입력 데이터에서 단순한 초평면(hyperplane)으로  회귀에 모두 사용할 수 있지만 여기서는 SVC를 사용하는 분류 문제만을 다루겠습니다. SVR를 사용하는 회귀 문제에도 같은 개념을 적용할 수 있습니다.
+
+### 선형 모델과 비선형 특성(Linear Model and Nonlinear Characteristics)
+
+* 직선(Straight line)과 초평면(hyperplane)은 유연하지 못하여 저차원 데이터셋에서는 선형 모델이 매우 제한적입니다. 선형 모델을 유현하게 만드는 한 가지 방법은 특성끼리 곱하거나 특성을 거듭제곱하는 식으로 새로운 특성을 추가하는 것입니다.
+
+
+
+* 세 번째 특성을 추가하여 선형 SVM으로 만들어진 결정 경계()
+
+
+
+
+
