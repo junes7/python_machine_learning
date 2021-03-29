@@ -298,3 +298,11 @@ $$
 * 결정 트리의 복잡도 제어하기 (To control the complexity of the decision tree)
 * 램 가격 데이터를 사용해 만든 선형 모델과 회귀 트리의 예측값 비교(Comparison of linear models and regression tree forecasts created using ram price data)
 *  
+
+https://github.com/rickiepark/introduction_to_ml_with_python
+
+여기 위 링크에서 preamble library 다운받음
+
+### 배깅(Bagging)
+
+* 배깅은 Bootstrap aggregating의 줄임말입니다. 배깅은 중복을 허용한 랜덤 샘플링으로 만든 호눌련 세트를사용하여 분류기를 각기 다르게 학습시킵니다.
