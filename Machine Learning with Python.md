@@ -350,3 +350,11 @@ https://github.com/rickiepark/introduction_to_ml_with_python
 * 유방암 데이터셋의 특성 값 범위(y축은 로그 스케일)(Range of characteristic values for breast cancer datasets when y axis is log scale)
 
 * 은닉 유닛이 10개인 신경망으로 학습시킨 two_moons 데이터셋의 결정 경계(Decison boundaries of two_moons datasets trained by neural networks with hidden units)
+
+* 10개의 은닉 유닛을 가진 두 개의 은닉층과 렐루 활성화 함수로 만든 결정 경계(Decision boundaries which made by two hidden layers with 10 hidden units and a function of Lelu activation)
+
+* 10개의 은닉 유닛을 가진 두 개의 은닉층과 tanh 활성화 함수로 만든 결정 경계(Decision boundaries which made by two hidden layers with 10 hidden units and a function of tanh activation)
+* 은닉 유닛과 alpha 매개변수에 따라 변하는 결정 경계(Decision boundaries which changed by hidden units and alpha parameters)
+* 무작위로 다른 초깃값을 주되 같은 매개변수로 학습한 결정 경계(Decision boundaries randomly given different initial values but which trained with the same parameters)
+
+* 유방암 데이터셋으로 학습시킨 신경망의 첫 번째 층의 가중치 히트맵(Weight ed Heat map for the first layer of neural networks which trained with breast cancer datasets)
