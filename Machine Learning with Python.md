@@ -342,3 +342,11 @@ https://github.com/rickiepark/introduction_to_ml_with_python
 
 
 * RBF 커널을 사용한 SVM으로 만든 결정 경계와 서포트 벡터(Decision boundaries and support vectors which made with SVM using RBF Kernel)
+
+* C와 gamma 매개변수 설정에 따른 결정 경계와 서포트 벡터(Deicision boundaries and suport vectors according to C and gamma parameter settings)
+
+
+
+* 유방암 데이터셋의 특성 값 범위(y축은 로그 스케일)(Range of characteristic values for breast cancer datasets when y axis is log scale)
+
+* 은닉 유닛이 10개인 신경망으로 학습시킨 two_moons 데이터셋의 결정 경계(Decison boundaries of two_moons datasets trained by neural networks with hidden units)
