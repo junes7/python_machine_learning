@@ -335,3 +335,10 @@ https://github.com/rickiepark/introduction_to_ml_with_python
 
 * 두 개 특성에 투영한 확장된 3차원 데이터셋의 결정 경계(Decision boundaries of extended three-dimensional datasets transparent to two characteristics)
 
+  
+
+### SVM(Support Vector Machine 서포트 벡터 머신) 이해하기
+
+
+
+* RBF 커널을 사용한 SVM으로 만든 결정 경계와 서포트 벡터(Decision boundaries and support vectors which made with SVM using RBF Kernel)
