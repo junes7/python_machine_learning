@@ -333,5 +333,5 @@ https://github.com/rickiepark/introduction_to_ml_with_python
 
 
 
-
+* 두 개 특성에 투영한 확장된 3차원 데이터셋의 결정 경계(Decision boundaries of extended three-dimensional datasets transparent to two characteristics)
 
