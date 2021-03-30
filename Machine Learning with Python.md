@@ -325,7 +325,11 @@ https://github.com/rickiepark/introduction_to_ml_with_python
 
 
 
-* 세 번째 특성을 추가하여 선형 SVM으로 만들어진 결정 경계()
+* 세 번째 특성을 추가하여 선형 SVM으로 만들어진 결정 경계(Decision boundaries made with linear svm by adding a third attribute)
+
+
+
+* 확장된 3차원 데이터셋에서 선형 SVM이 만든 결정 경계(Decision boundaries which created by linear SVM on Extended three-dimensional datasets)
 
 
 
