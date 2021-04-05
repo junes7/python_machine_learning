@@ -358,3 +358,10 @@ https://github.com/rickiepark/introduction_to_ml_with_python
 * 무작위로 다른 초깃값을 주되 같은 매개변수로 학습한 결정 경계(Decision boundaries randomly given different initial values but which trained with the same parameters)
 
 * 유방암 데이터셋으로 학습시킨 신경망의 첫 번째 층의 가중치 히트맵(Weight ed Heat map for the first layer of neural networks which trained with breast cancer datasets)
+
+
+
+
+
+* 훈련 데이터와 테스트 데이터의 스케일 조정을 함께 했을 때(가운데)와 따로 했을 때(오른쪽) 미치는 영향(Effects of scaling training and test data together (center) and separately (right))
+* 
