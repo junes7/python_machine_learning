@@ -4,7 +4,7 @@
 
 
 
-
+https://blog.naver.com/ssdyka/221258236172
 
 ## 1. 소개
 
@@ -369,3 +369,10 @@ https://github.com/rickiepark/introduction_to_ml_with_python
 
 ### 차원 축소, 특성 추출, 매니폴드 학습(Dimensionality Reduction, Characterization Extraction, Manifold Learning)
 
+
+
+
+
+
+
+* 처음 두 개의 주성분을 상요해 그린 유방암 데이터셋의 2차원 선점도(A two-dimensional pre-plot of the first two principal components of the breast cancer datasets)
