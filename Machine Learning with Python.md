@@ -364,4 +364,8 @@ https://github.com/rickiepark/introduction_to_ml_with_python
 
 
 * 훈련 데이터와 테스트 데이터의 스케일 조정을 함께 했을 때(가운데)와 따로 했을 때(오른쪽) 미치는 영향(Effects of scaling training and test data together (center) and separately (right))
-* 
+
+
+
+### 차원 축소, 특성 추출, 매니폴드 학습(Dimensionality Reduction, Characterization Extraction, Manifold Learning)
+
