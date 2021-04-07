@@ -378,3 +378,5 @@ https://github.com/rickiepark/introduction_to_ml_with_python
 * 처음 두 개의 주성분을 상요해 그린 유방암 데이터셋의 2차원 산점도(A two-dimensional scatterplots of the first two principal components of the breast cancer datasets)
 
 * 유방암 데이터셋에서 찾은 처음 두 개의 주성분 히트맵(First two principal components heatmaps which found in breast cancer datasets)
+
+* 주성분 개수에 따른 세 얼굴 이미지의 재구성(Reconstruction of three-face images according to the number of principal components)
